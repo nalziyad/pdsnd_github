@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+27/12/2020
 
 ### Project Title
-Replace the Project Title
+Udacity/PDSND: Bikeshare Python Project
 
 ### Description
-Describe what your project is about and what it does
+Using python to explore data related to a bike share system for 3 US Cities.
 
 ### Files used
-Include the files used
+washington.csv, new_york_city.csv and chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+udacity.com
