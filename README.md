@@ -11,4 +11,4 @@ Using python to explore data related to a bike share system for 3 US Cities. Use
 washington.csv, new_york_city.csv and chicago.csv
 
 ### Credits
-udacity.com
+I would like to thank Udacity for helping us learn python with this great project to build up our skills.
