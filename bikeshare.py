@@ -84,16 +84,16 @@ def time_stats(df):
 
     # display the most common month
     common_month = df['month'].mode()[0]
-    print('The most common month is: ', common_month)
+    print('The most common month for travelling is: ', common_month)
 
     # display the most common day of week
     common_day = df['day_of_week'].mode()[0]
-    print('The most common day of the week is: ', common_day)
+    print('The most common day of the week for travelling is: ', common_day)
 
     # display the most common start hour
     df['hour'] = df['Start Time'].dt.hour
     common_hour = df['hour'].mode()[0]
-    print('The most common hour is: ', common_hour)
+    print('The most common hour for travelling is: ', common_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -181,16 +181,16 @@ def user_stats(df):
 
 
 def raw_data(df):
-    display_data = input("Would you like to see 5 rows of individual trips data? Type 'Yes' or 'No'. ").lower()
+    display_data = input("Would you like to see 8 rows of individual trips data? Type 'Yes' or 'No'. ").lower()
     x = 0
     if display_data == 'yes':
-        print(df[x:x + 5])
+        print(df[x:x + 8])
 
         while True:
-            x = x + 5
+            x = x + 8
             display_data = input("Would you like to see more data? Type 'Yes' or 'No'. ").lower()
             if display_data == 'yes':
-                print(df[x:x + 5])
+                print(df[x:x + 8])
             else:
                  break
 
