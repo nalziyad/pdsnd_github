@@ -181,16 +181,16 @@ def user_stats(df):
 
 
 def raw_data(df):
-    display_data = input("Would you like to see 5 rows of individual trips data? Type 'Yes' or 'No'. ").lower()
+    display_data = input("Would you like to see 8 rows of individual trips data? Type 'Yes' or 'No'. ").lower()
     x = 0
     if display_data == 'yes':
-        print(df[x:x + 5])
+        print(df[x:x + 8])
 
         while True:
-            x = x + 5
+            x = x + 8
             display_data = input("Would you like to see more data? Type 'Yes' or 'No'. ").lower()
             if display_data == 'yes':
-                print(df[x:x + 5])
+                print(df[x:x + 8])
             else:
                  break
 
